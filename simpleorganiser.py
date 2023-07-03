@@ -1,8 +1,10 @@
 import os
 import shutil
 
+
 path = input("Enter Folderpath here ")
 files = os.listdir (path)
+
 
 for file in files:
     filename,extension = os.path.splitext(file)
